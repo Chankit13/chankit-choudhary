@@ -9,10 +9,16 @@ import heroImage from "@/assets/chankit-profile.jpg";
 
 
 // 
+type Params = {
+  id: string;
+};
 
 interface BlogPostProps {
-  params: { id: string };
+  params: Params;
 }
+// interface BlogPostProps {
+//   params: { id: string };
+// }
 
 export async function generateStaticParams() {
   const paths = await getAllPostIds();
