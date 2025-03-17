@@ -32,26 +32,19 @@ Before you begin, ensure you have:
 - npm or yarn package manager
 - Git
 
-## Installation Guide
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/medevs/smart-portfolio.git
-   cd smart-portfolio
-   ```
 
-2. **Install Dependencies**
+1. **Install Dependencies**
    ```bash
    npm install
    # or
    yarn install
    ```
 
-3. **Environment Setup**
+2. **Environment Setup**
    Create a `.env.local` file in the root directory with the following variables:
    ```env
-   # OpenAI
-   OPENAI_API_KEY=your_openai_api_key
+   
 
    # Supabase
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
@@ -156,6 +149,3 @@ Before you begin, ensure you have:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
