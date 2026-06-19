@@ -5,7 +5,7 @@
 // import { getSortedPostsData, getPostData, getAllPostIds } from '../../../../utils/markdown';
 // import Link from "next/link";
 // import { ArrowLeft, Calendar, Clock, Tag, User } from "lucide-react";
-// import heroImage from "@/assets/chankit-profile.jpg";
+// import heroImage from "@/assets/chankit-profile.jpeg";
 
 
 // // 
@@ -152,7 +152,7 @@ import { Metadata } from 'next';
 import { getSortedPostsData, getPostData, getAllPostIds } from '../../../../utils/markdown';
 import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, Tag, User } from "lucide-react";
-import heroImage from "@/assets/chankit-profile.jpg";
+import heroImage from "@/assets/chankit-profile.jpeg";
 
 type Params = {
   id: string;

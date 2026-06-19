@@ -25,6 +25,33 @@ const techIcons: { [key: string]: JSX.Element } = {
 
 const projects = [
   {
+    title: 'Emotion detection System',
+    description: ' Implemented image preprocessing, face detection, and deep learning-based emotion classification techniques to extract meaningful insights from facial features. Built an intuitive interface for image upload and emotion prediction, demonstrating practical applications of computer vision and deep learning',
+    techStack: ['OpenCV', 'Matplotlib','tkinter'],
+    github: 'https://github.com/Chankit13/Emotion-Detector',
+    // demo: 'https://supp-directory.vercel.app',
+    stars: 6,
+    forks: 2
+  },
+  {
+    title: 'Face Authentication Attendance System',
+    description: ' Developed an AI-powered attendance management system that uses facial recognition to automatically identify individuals and record attendance in real time. Implemented face embedding extraction, cosine similarity-based face matching, and automated check-in/check-out logging.',
+    techStack: ['OpenCV', 'Computer Vision', 'Machine Learning', 'tkinter'],
+    github: 'https://github.com/Chankit13/Face_authentication_attendance_system',
+    // demo: 'https://supp-directory.vercel.app',
+    stars: 5,
+    forks: 2
+  },
+  {
+    title: 'MRI Brain Tumor Segmentation',
+    description: ' Developed a 3D CNN-based ResUNet model for accurate brain tumor segmentation from MRI scans using TensorFlow and Keras. Applied advanced image preprocessing, data augmentation, and feature extraction techniques to improve segmentation performance. Built end-to-end deep learning pipelines with OpenCV, scikit-image, and Keras Callbacks for training, evaluation, and monitoring.',
+    techStack: ['Tensorflow', 'keras','OpenCV','Matplotlib','Seaborn'],
+    github: 'https://github.com/Chankit13/MRI-Brain-Tumor-segmentation',
+    // demo: 'https://supp-directory.vercel.app',
+    stars: 3,
+    forks: 1
+  },
+  {
     title: 'Chatbot-for-food-delivery-app',
     description: 'A Food delivery Website integrated with an AI chatbot that can answer to question about food order.',
     techStack: ['Dialogflow', 'MySQL', 'Python', 'FastAPI','HTML','CSS'],
@@ -42,6 +69,7 @@ const projects = [
     stars: 3,
     forks: 0
   },
+   
   {
     title: 'Linkdin-Post-Generator',
     description: 'This enables users to generate high-quality LinkedIn posts effortlessly.',
@@ -51,15 +79,6 @@ const projects = [
     stars: 3,
     forks: 0
   },
-  {
-    title: 'Churn-Prediction',
-    description: 'A Machine Learning Model that analyze customer behavior',
-    techStack: ['ANN', 'Kaggle', 'Python'],
-    github: 'https://github.com/Chankit13/Churn-Prediction',
-    // demo: 'https://careerai.medevs.com',
-    stars: 2,
-    forks: 0
-  }
 ];
 
 const FeaturedProjects: React.FC = () => {

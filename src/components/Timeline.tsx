@@ -16,8 +16,8 @@ const educationItems: TimelineItem[] = [
     title: 'B.E. CSE(HONS.) AIML',
     organization: 'Chandigarh University',
     date: 'Aug 2022 - June 2026',
-    description: 'Pursuing a rigorous undergraduate program that blends core computer science principles with specialized AI and ML techniques',
-    skills: ['Python','Machine learning', 'Deep Learning', 'NLP', 'SQL', 'Docker']
+    description: 'Undergraduate program that blends core computer science principles with specialized AI and ML techniques',
+    skills: ['Python','Machine learning', 'Deep Learning', 'NLP', 'SQL', 'Docker','LLM','RAG']
   },
   {
     type: 'education',
@@ -38,6 +38,45 @@ const educationItems: TimelineItem[] = [
 ];
 
 const experienceItems: TimelineItem[] = [
+    {
+    type: 'experience',
+    title: 'Data Analyst Intern',
+    organization: 'BgenT Solutions Pvt. Ltd.',
+    date: 'May 2025 - July 2025',
+    location: 'Ghaziabad',
+    description: 'Performed data analysis on user and provider datasets to uncover insights into referral behavior, service demand patterns, and business performance. Leveraged SQL, Python, and dashboarding tools to track KPIs, visualize trends, and support strategic decision-making. ',
+    skills: [
+      'SQL',
+      'Excel',
+      'Power BI',
+      'Python',
+      'Statistical Analysis',
+      'Data Visualization',
+      'Reporting & Insights',
+      'Outlier Detection'
+    ]
+  },
+  {
+    type: 'experience',
+    title: 'Data Science Trainee',
+    organization: 'NullClass',
+    date: 'March 2025- April 2025 ',
+    location: 'Remote',
+    description: 'Worked on real-time emotion detection and machine learning projects. Developed interactive applications using Streamlit and Tkinter, performed data preprocessing, model training, and evaluation using various machine learning techniques.',
+    skills: [
+      'Python',
+      'Cross Validation',
+      'Exploratory Data Analysis',
+      'Feature Engineering',
+      'Data Normalization',
+      'Decision Trees',
+      'Tensorflow',
+      'CNN',
+      'Scikit-learn',
+      'Streamlit',
+      'Tkinter'
+    ]
+  },
   {
     type: 'experience',
     title: 'Training in Kotlin Development',
@@ -45,7 +84,7 @@ const experienceItems: TimelineItem[] = [
     date: 'May 2023 - June 2023 ·6 weeks',
     location: 'Mohali, India',
     description: 'Completed an intensive summer training program focused on Kotlin programming and Android app development,  gaining hands-on experience in designing, developing, and deploying Android applications.',
-    skills: ['Kotlin', 'Android Development', 'Git']
+    skills: ['Kotlin', 'Android Development', 'Git','UI/UX Design','SQLite','Debugging','Version Control',]
   },
   
 ];

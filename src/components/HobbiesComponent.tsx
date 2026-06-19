@@ -12,13 +12,14 @@ interface Hobby {
 
 const hobbies: Hobby[] = [
 //   { name: 'Guitar', image: '' },
-  { name: 'BakeHouse', image: '/images/bake-house.jpg' },
-  { name: 'Sunset', image: '/images/sunset.jpg' },
+  { name: 'Building AI agents', image: '/images/ai agent.jpeg' },
+  { name: 'Exploring Research', image: '/images/reddit.jpeg' },
+  { name: 'Trekking', image: '/images/trekking.jpeg' },
+  { name: 'Lakes', image: '/images/lakes.jpeg' },
   { name: 'Crime Thrillers', image: '/images/detective.jpg' },
-  { name: 'Do not disturb mode', image: '/images/No-dist.jpg' },
-  { name: 'Water Activities', image: '/images/waterr.jpg' },
+  { name: 'Fort', image: '/images/fort.jpeg' },
   
-];
+]
 
 const Hobbies: React.FC = () => {
   return (

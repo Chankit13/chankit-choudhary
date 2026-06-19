@@ -20,6 +20,10 @@ export const skills: Skill[] = [
   { name: 'Word2Vec', icon: 'SiGoogle', color: '#4285F4' },
   { name: 'LLaMA', icon: 'SiMeta', color: '#4267B2' },
   { name: 'RAG', icon: 'SiTensorflow', color: '#FF6F00' },
+  { name: 'LangChain', icon: 'SiChainlink', color: '#375BD2' },
+  { name: 'Hugging Face', icon: 'SiHuggingface', color: '#FFD21E' },
+  { name: 'Computer Vision', icon: 'SiOpencv', color: '#5C3EE8' },
+  { name: 'MLOps', icon: 'SiMlflow', color: '#0194E2' },
 
   { name: 'MySQL', icon: 'SiMysql', color: '#4479A1' },
   { name: 'MongoDB', icon: 'SiMongodb', color: '#47A248' },
@@ -35,5 +39,6 @@ export const skills: Skill[] = [
   { name: 'HTML', icon: 'SiHtml5', color: '#E34F26' },
   { name: 'CSS', icon: 'SiCss3', color: '#1572B6' },
   { name: 'JavaScript', icon: 'SiJavascript', color: '#F7DF1E' },
+  { name: 'React', icon: 'SiReact', color: '#61DAFB' },
   
 ];

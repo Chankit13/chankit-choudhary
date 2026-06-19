@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import heroImage from "@/assets/chankit-profile.jpg";
+import heroImage from "@/assets/chankit-profile.jpeg";
 import { Twitter, GithubIcon, Linkedin } from 'lucide-react';
 
 const AboutMe: React.FC = () => {
@@ -29,7 +29,7 @@ const AboutMe: React.FC = () => {
                 <div className="space-y-3">
                   <p className="text-md text-gray-600 dark:text-gray-300 leading-relaxed">
                     Hey there, I&apos;m Chankit Choudhary, an AI Developer based in Chandigarh, India. 
-                    I specialize in Machine Learning, Deep Learning, NLP, and AI frameworks like LangChain and Dialogflow.
+                    I specialize in Machine Learning, Deep Learning, NLP, and have hands-on experience building intelligent applications using modern AI frameworks and tools, including LangChain, LangGraph, LlamaIndex, Hugging Face Transformers, OpenAI APIs, Dialogflow, TensorFlow, PyTorch, FastAPI, and Vector Databases.
                     With a keen eye for detail and a passion for innovation, I build intelligent solutions that enhance user experiences and drive business success. 
                   </p>
                   <p className="text-md text-gray-600 dark:text-gray-300 leading-relaxed">

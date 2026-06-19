@@ -42,7 +42,7 @@
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.0",
     "remark-html": "^16.0.1",
-    "swiper": "^11.2.5",
+    "swiper": "^11.2.10",
     "tailwind-merge": "^2.6.0",
     "ts-node": "^10.9.2",
     "uuid": "^11.1.0"
